@@ -1,0 +1,8 @@
+name: 'Flag Actions FOSS'
+type: module
+description: 'Runs the FOSS API based on Flag clicks'
+core: 8.x
+package: flags
+dependencies:
+  - flag
+  #- flag_click_counter

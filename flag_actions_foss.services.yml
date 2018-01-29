@@ -1,0 +1,9 @@
+services:
+  flag_actions_foss.service:
+    class: Drupal\flag_actions_foss\Service\FlagActionsFossService
+    arguments: ['@entity_type.manager']
+
+  flag_actions_foss.route_subscriber:
+    class: Drupal\flag_actions_foss\Routing\FlagActionsFossRouteSubscriber
+    tags:
+      - { name: event_subscriber }

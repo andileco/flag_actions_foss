@@ -1,0 +1,15 @@
+flag_actions_foss.flag:
+  path: '/flag_actions_foss/flag'
+  defaults:
+    _controller: '\Drupal\flag_actions_foss\Controller\FlagActionsFossController::flag'
+    _title: 'flag_action'
+  requirements:
+    _permission: 'access content'
+flag_actions_foss.unflag:
+  path: '/flag_actions_foss/unflag'
+  defaults:
+    _controller: '\Drupal\flag_actions_foss\Controller\FlagActionsFossController::unflag'
+    _title: 'unflag_action  '
+  requirements:
+    _permission: 'access content'
+

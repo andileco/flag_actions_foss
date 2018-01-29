@@ -1,0 +1,16 @@
+{
+  "name": "drupal/flag_actions_foss",
+  "type": "drupal-module",
+  "description": "Adds actions to various Flags on FOSS site",
+  "keywords": [
+    "Drupal"
+  ],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/flag_actions_foss",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/flag_actions_foss",
+    "source": "http://cgit.drupalcode.org/flag_actions_foss"
+  },
+  "require": {}
+}
